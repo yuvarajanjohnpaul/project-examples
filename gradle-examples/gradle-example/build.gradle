@@ -57,7 +57,8 @@ subprojects {
       published
     }
     dependencies {
-      testImplementation 'junit:junit:4.7'
+      testImplementation 'junit:junit:4.7',
+      compile 'org.apache.httpcomponents:httpclient:4.5.10'      
     }
     task sourceJar(type: Jar) {
       from sourceSets.main.allSource
