@@ -47,6 +47,14 @@ artifactoryPublish.skip = true
 
 subprojects {
   apply plugin: 'maven'
+  
+  uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://34.93.122.108:8081/artifactory/libs-snapshot-local/")
+        }
+    }
+}
 
   if (project.plugins.hasPlugin('java')) {
     //manifest.mainAttributes(provider: 'gradle')
