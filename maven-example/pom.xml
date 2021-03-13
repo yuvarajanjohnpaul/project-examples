@@ -33,6 +33,13 @@
     <version>0.34.0</version>
 </dependency>
         
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-catalina</artifactId>
+    <version>8.5.43</version>
+</dependency>
+        
     </dependencies>
 
     <build>
