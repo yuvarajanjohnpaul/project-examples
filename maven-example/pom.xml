@@ -33,6 +33,13 @@
     <version>0.34.0</version>
 </dependency>
         
+        <!-- https://mvnrepository.com/artifact/org.webjars/lodash -->
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>lodash</artifactId>
+    <version>4.15.0</version>
+</dependency>
+        
     </dependencies>
 
     <build>
