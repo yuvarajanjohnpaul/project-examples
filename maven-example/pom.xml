@@ -46,7 +46,13 @@
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
 </dependency>
-
+        
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-ext -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-ext</artifactId>
+    <version>1.7.28</version>
+</dependency>
         
 </dependencies>
         
