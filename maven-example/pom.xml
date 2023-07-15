@@ -39,6 +39,15 @@
     <artifactId>lodash</artifactId>
     <version>4.0.0</version>
 </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-json -->
+<dependency>
+    <groupId>org.jetbrains.kotlinx</groupId>
+    <artifactId>kotlinx-serialization-json</artifactId>
+    <version>1.5.1</version>
+    <type>pom</type>
+    <scope>runtime</scope>
+</dependency>
         
         <!-- https://mvnrepository.com/artifact/log4j/log4j -->
 <dependency>
