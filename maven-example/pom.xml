@@ -19,64 +19,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.jaegertracing/jaeger-client -->
+<dependencies>
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 <dependency>
-    <groupId>io.jaegertracing</groupId>
-    <artifactId>jaeger-client</artifactId>
-    <version>0.34.0</version>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>32.0.1-android</version>
 </dependency>
-        
-<!-- https://mvnrepository.com/artifact/org.webjars/lodash -->
-<dependency>
-    <groupId>org.webjars</groupId>
-    <artifactId>lodash</artifactId>
-    <version>4.0.0</version>
-</dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-json -->
-<dependency>
-    <groupId>org.jetbrains.kotlinx</groupId>
-    <artifactId>kotlinx-serialization-json</artifactId>
-    <version>1.5.1</version>
-    <type>pom</type>
-    <scope>runtime</scope>
-</dependency>
-        
-        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-        
-        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.17.0</version>
-</dependency>
-        
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-ext -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-ext</artifactId>
-    <version>1.7.28</version>
-</dependency>
-        
-<!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-core -->
-<dependency>
-    <groupId>com.google.cloud</groupId>
-    <artifactId>google-cloud-core</artifactId>
-    <version>2.17.0</version>
-</dependency>
-        
 </dependencies>
         
     <build>
